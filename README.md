@@ -20,21 +20,23 @@ RegularSeasonCompactResults
 
 This file identifies the game-by-game results for 32 seasons of historical data, from 1985 to 2015. Each year, it includes all games played from daynum 0 through 132. Each row in the file represents a single game played. 
 
-Season - this is the year of the associated entry in seasons.csv (the year in which the final tournament occurs) 
+•	Season - this is the year of the associated entry in seasons.csv (the year in which the final tournament occurs) 
 
-Daynum - this integer always ranges from 0 to 132, and tells you what day the game was played on. It represents an offset from the "dayzero" date in the "seasons.csv" file. 
+•	Daynum - this integer always ranges from 0 to 132, and tells you what day the game was played on. It represents an offset from the "dayzero" date in the "seasons.csv" file. 
 
-Wteam- this identifies the id number of the team that won the game, as listed in the teams.csv file. No matter whether the game was won by the home team or visiting team, wteam always identifies the winning team. 
+•	Wteam- this identifies the id number of the team that won the game, as listed in the teams.csv file. No matter whether the game was won by the home team or visiting team, wteam always identifies the winning team. 
 
-Wscore - this identifies the number of points scored by the winning team. 
+•	Wscore - this identifies the number of points scored by the winning team. 
 
-Lteam - this identifies the id number of the team that lost the game. 
+•	Lteam - this identifies the id number of the team that lost the game. 
 
-Lscore - this identifies the number of points scored by the losing team. 
+•	Lscore - this identifies the number of points scored by the losing team. 
 
-Numot- this indicates the number of overtime periods in the game, an integer 0 or higher. 
+•	Numot- this indicates the number of overtime periods in the game, an integer 0 or higher. 
 
-Wloc - this identifies the location of the winning team. If the winning team was the home team, this value will be "H". If the winning team was the visiting team, this value will be "A". If it was played on a neutral court, then this value will be "N". 
+•	Wloc - this identifies the location of the winning team. If the winning team was the home team, this value will be "H". If the winning team was the visiting team, this value will be "A". If it was played on a neutral court, then this value will be "N". 
+
+
 
 RegularSeasonDetailedResults 
 
